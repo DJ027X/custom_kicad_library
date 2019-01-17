@@ -1,3 +1,21 @@
 EESchema-DOCLIB  Version 2.0
 #
+$CMP IRF9540N
+D -23A Id, -100V Vds, HEXFET P-Channel MOSFET, TO-220
+K HEXFET P-Channel MOSFET transistor power switch fet p
+F ~/datasheets/irf9540n.pdf
+$ENDCMP
+#
+$CMP RC0603JR-071KL
+D RES SMD 1K OHM 5% 1/10W 0603
+K resistor
+F ~/datasheets/PYu-RC_Group_51_RoHS_L_10.pdf
+$ENDCMP
+#
+$CMP RMCF0603FT22R0
+D RES 22 OHM 1% 1/10W 0603
+K resistor thick film impedance termination
+F ~/datasheets/SEI-RMCF_RMCP.pdf
+$ENDCMP
+#
 #End Doc Library
