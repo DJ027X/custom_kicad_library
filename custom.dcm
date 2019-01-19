@@ -30,6 +30,12 @@ K ceramic c capacitor
 F ~/datasheets/CL10B105KA8NNNC.pdf
 $ENDCMP
 #
+$CMP CM1293A-04SO
+D QUAD TVS DIODE 3.3V 9.9V SC74
+K protection 3.3 9.9 static shock esd
+F ~/datasheets/CM1293A-04SO-D.PDF
+$ENDCMP
+#
 $CMP CR0603-JW-103ELF
 D RES SMD 10K OHM 5% 1/10W 0603
 K resistor thick film tenth watt r
@@ -40,6 +46,12 @@ $CMP IRF9540N
 D -23A Id, -100V Vds, HEXFET P-Channel MOSFET, TO-220
 K HEXFET P-Channel MOSFET transistor power switch fet p
 F ~/datasheets/irf9540n.pdf
+$ENDCMP
+#
+$CMP MF-MSMF050-2
+D PTC RESET FUSE 15V 500MA 1812
+K resettable fuse PTC PPTC polyfuse polyswitch
+F ~/datasheets/mfmsmf.pdf
 $ENDCMP
 #
 $CMP NP_R_0603

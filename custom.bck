@@ -42,6 +42,12 @@ K HEXFET P-Channel MOSFET transistor power switch fet p
 F ~/datasheets/irf9540n.pdf
 $ENDCMP
 #
+$CMP MF-MSMF050-2
+D PTC RESET FUSE 15V 500MA 1812
+K resettable fuse PTC PPTC polyfuse polyswitch
+F ~/datasheets/mfmsmf.pdf
+$ENDCMP
+#
 $CMP NP_R_0603
 D NOPOP RESISTOR
 K resistor no pop nopop np not populated
