@@ -60,6 +60,10 @@ K resettable fuse PTC PPTC polyfuse polyswitch
 F ~/datasheets/mfmsmf.pdf
 $ENDCMP
 #
+$CMP MP6513
+F ~/datasheet/MP6513.pdf
+$ENDCMP
+#
 $CMP NP_C_0402
 D NP CAP 0402
 K NOPOP NON NOT POPULATE NO POP POPULATED
