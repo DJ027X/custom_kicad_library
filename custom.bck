@@ -12,6 +12,30 @@ K clock osc oscilator oscillator 12
 F ~/datasheets/ABM8G.pdf
 $ENDCMP
 #
+$CMP ATmega16U4-AU
+D 16MHz, 16kB Flash, 1.25kB SRAM, 512B EEPROM, USB 2.0, TQFP-44
+K AVR 8bit Microcontroller MegaAVR USB
+F http://ww1.microchip.com/downloads/en/DeviceDoc/Atmel-7766-8-bit-AVR-ATmega16U4-32U4_Datasheet.pdf
+$ENDCMP
+#
+$CMP ATmega16U4RC-AU
+D 16MHz, 16kB Flash, 1.25kB SRAM, 512B EEPROM, USB 2.0, RC Osc, TQFP-44
+K AVR 8bit Microcontroller MegaAVR USB
+F http://ww1.microchip.com/downloads/en/DeviceDoc/Atmel-7766-8-bit-AVR-ATmega16U4-32U4_Datasheet.pdf
+$ENDCMP
+#
+$CMP ATmega32U4-AU
+D 16MHz, 32kB Flash, 2.5kB SRAM, 1kB EEPROM, USB 2.0, TQFP-44
+K AVR 8bit Microcontroller MegaAVR USB
+F http://ww1.microchip.com/downloads/en/DeviceDoc/Atmel-7766-8-bit-AVR-ATmega16U4-32U4_Datasheet.pdf
+$ENDCMP
+#
+$CMP ATmega32U4RC-AU
+D 16MHz, 32kB Flash, 2.5kB SRAM, 1kB EEPROM, USB 2.0, RC Osc, TQFP-44
+K AVR 8bit Microcontroller MegaAVR USB
+F http://ww1.microchip.com/downloads/en/DeviceDoc/Atmel-7766-8-bit-AVR-ATmega16U4-32U4_Datasheet.pdf
+$ENDCMP
+#
 $CMP C0603C180K5RACAUTO
 D CAP CER SMD 0603 18PF 10% X7R 50V
 K ceramic c capacitor 18
@@ -58,6 +82,10 @@ $CMP MF-MSMF050-2
 D PTC RESET FUSE 15V 500MA 1812
 K resettable fuse PTC PPTC polyfuse polyswitch
 F ~/datasheets/mfmsmf.pdf
+$ENDCMP
+#
+$CMP MP6513
+F ~/datasheet/MP6513.pdf
 $ENDCMP
 #
 $CMP NP_C_0402
