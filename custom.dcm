@@ -121,6 +121,12 @@ K R res resistor
 F ~
 $ENDCMP
 #
+$CMP SGM3157YC6
+D 4.5 Ohm Low Voltage SPDT Analog Switch
+K relay solid state ssr
+F ~/datasheets/SGM00371010.pdf
+$ENDCMP
+#
 $CMP ‎CL21A475KLCLQNC‎
 D CAP CER 4.7uF 35V X5R 0805
 K ceramic capacitor c
