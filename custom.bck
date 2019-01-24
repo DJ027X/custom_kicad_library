@@ -78,6 +78,12 @@ K resistor thick film tenth watt r
 F ~/datasheets/chpreztr.pdf
 $ENDCMP
 #
+$CMP DMG6602
+D DUAL MOSFET N/P-CH 30V TSOT23-6
+K transistor cmos
+F /home/dj/datasheets/DMG6602SVT.pdf
+$ENDCMP
+#
 $CMP IRF9540N
 D -23A Id, -100V Vds, HEXFET P-Channel MOSFET, TO-220
 K HEXFET P-Channel MOSFET transistor power switch fet p
@@ -113,6 +119,11 @@ $CMP PTH_0.5_mm
 D test point
 K test point tp
 F ~
+$ENDCMP
+#
+$CMP RA_SLIDE_SWITCH_DPDT
+D right angle slide switch dpdt
+K switch dual-pole double-throw DPDT spdt ON-ON
 $ENDCMP
 #
 $CMP RC0603JR-071KL

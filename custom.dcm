@@ -121,6 +121,11 @@ K test point tp
 F ~
 $ENDCMP
 #
+$CMP RA_SLIDE_SWITCH_DPDT
+D right angle slide switch dpdt
+K switch dual-pole double-throw DPDT spdt ON-ON
+$ENDCMP
+#
 $CMP RC0603JR-071KL
 D RES SMD 1K OHM 5% 1/10W 0603
 K resistor
@@ -143,6 +148,10 @@ $CMP SGM3157YC6
 D 4.5 Ohm Low Voltage SPDT Analog Switch
 K relay solid state ssr
 F ~/datasheets/SGM00371010.pdf
+$ENDCMP
+#
+$CMP VDD_BAT
+D VDD_BAT power rail
 $ENDCMP
 #
 $CMP ‎CL21A475KLCLQNC‎
