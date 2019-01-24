@@ -12,6 +12,12 @@ K clock osc oscilator oscillator 12
 F ~/datasheets/ABM8G.pdf
 $ENDCMP
 #
+$CMP AO3407A
+D P-Channel signal MOSFET
+K pmos pmosfet pfet p channel transistor
+F /home/dj/datasheets/AO3407A.pdf
+$ENDCMP
+#
 $CMP ATmega16U4-AU
 D 16MHz, 16kB Flash, 1.25kB SRAM, 512B EEPROM, USB 2.0, TQFP-44
 K AVR 8bit Microcontroller MegaAVR USB
@@ -72,6 +78,12 @@ K resistor thick film tenth watt r
 F ~/datasheets/chpreztr.pdf
 $ENDCMP
 #
+$CMP DMG6602
+D DUAL MOSFET N/P-CH 30V TSOT23-6
+K transistor cmos
+F /home/dj/datasheets/DMG6602SVT.pdf
+$ENDCMP
+#
 $CMP IRF9540N
 D -23A Id, -100V Vds, HEXFET P-Channel MOSFET, TO-220
 K HEXFET P-Channel MOSFET transistor power switch fet p
@@ -101,6 +113,12 @@ $ENDCMP
 $CMP NP_R_0603
 D NOPOP RESISTOR
 K resistor no pop nopop np not populated non
+$ENDCMP
+#
+$CMP PTH_0.5_mm
+D test point
+K test point tp
+F ~
 $ENDCMP
 #
 $CMP RC0603JR-071KL
