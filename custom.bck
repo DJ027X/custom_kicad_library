@@ -115,6 +115,12 @@ D NOPOP RESISTOR
 K resistor no pop nopop np not populated non
 $ENDCMP
 #
+$CMP NP_SMAJ12A_0
+D TVS DIODE 12V 19.9V DO214AC
+K esd shock transient
+F /home/dj/datasheets/SMAJ_series.pdf
+$ENDCMP
+#
 $CMP PTH_0.5_mm
 D test point
 K test point tp
@@ -148,6 +154,16 @@ $CMP SGM3157YC6
 D 4.5 Ohm Low Voltage SPDT Analog Switch
 K relay solid state ssr
 F ~/datasheets/SGM00371010.pdf
+$ENDCMP
+#
+$CMP SMAJ12A
+D TVS DIODE 12V 19.9V DO214AC
+K esd shock transient
+F /home/dj/datasheets/SMAJ_series.pdf
+$ENDCMP
+#
+$CMP VDD_BAT
+D VDD_BAT power rail
 $ENDCMP
 #
 $CMP ‎CL21A475KLCLQNC‎
