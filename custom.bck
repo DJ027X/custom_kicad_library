@@ -115,7 +115,7 @@ D NOPOP RESISTOR
 K resistor no pop nopop np not populated non
 $ENDCMP
 #
-$CMP NP_SMAJ12A_0
+$CMP NP_SMAJ12A
 D TVS DIODE 12V 19.9V DO214AC
 K esd shock transient
 F /home/dj/datasheets/SMAJ_series.pdf
