@@ -90,6 +90,12 @@ K HEXFET P-Channel MOSFET transistor power switch fet p
 F ~/datasheets/irf9540n.pdf
 $ENDCMP
 #
+$CMP LED_GENERIC_0805
+D Light emitting diode
+K LED diode
+F ~
+$ENDCMP
+#
 $CMP MF-MSMF050-2
 D PTC RESET FUSE 15V 500MA 1812
 K resettable fuse PTC PPTC polyfuse polyswitch
