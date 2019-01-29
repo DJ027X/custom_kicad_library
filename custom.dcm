@@ -166,6 +166,12 @@ $CMP VDD_BAT
 D VDD_BAT power rail
 $ENDCMP
 #
+$CMP XT60_RA_MALE
+D XT60 Male RA
+K connector right angle through hole
+F /home/dj/datasheets/XT60PW.pdf
+$ENDCMP
+#
 $CMP ‎CL21A475KLCLQNC‎
 D CAP CER 4.7uF 35V X5R 0805
 K ceramic capacitor c
