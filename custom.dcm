@@ -42,6 +42,12 @@ K AVR 8bit Microcontroller MegaAVR USB
 F http://ww1.microchip.com/downloads/en/DeviceDoc/Atmel-7766-8-bit-AVR-ATmega16U4-32U4_Datasheet.pdf
 $ENDCMP
 #
+$CMP AZ2117
+D IC REG LIN POS ADJ 1.5A SOT223
+K linear voltage regulator ldo
+F /home/dj/datasheets/AZ2117.pdf
+$ENDCMP
+#
 $CMP C0603C180K5RACAUTO
 D CAP CER SMD 0603 18PF 10% X7R 50V
 K ceramic c capacitor 18
