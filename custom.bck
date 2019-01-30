@@ -115,7 +115,7 @@ F ~/datasheets/mfmsmf.pdf
 $ENDCMP
 #
 $CMP MP6513
-F ~/datasheet/MP6513.pdf
+F ~/datasheets/MP6513.pdf
 $ENDCMP
 #
 $CMP NP_C_0402
@@ -206,6 +206,12 @@ $ENDCMP
 #
 $CMP VDD_BAT
 D VDD_BAT power rail
+$ENDCMP
+#
+$CMP XT60_RA_FEMALE
+D XT60 Male RA
+K connector right angle through hole
+F /home/dj/datasheets/XT60PW.pdf
 $ENDCMP
 #
 $CMP XT60_RA_MALE
