@@ -96,6 +96,12 @@ K transistor cmos
 F /home/dj/datasheets/DMG6602SVT.pdf
 $ENDCMP
 #
+$CMP ERB-RE4R00V
+D FUSE BOARD MOUNT 4A 32VDC 0603
+K f
+F /home/dj/datasheets/AFA0000C7.pdf
+$ENDCMP
+#
 $CMP IRF9540N
 D -23A Id, -100V Vds, HEXFET P-Channel MOSFET, TO-220
 K HEXFET P-Channel MOSFET transistor power switch fet p
@@ -108,6 +114,12 @@ K LED diode
 F ~
 $ENDCMP
 #
+$CMP LMR23625CFDDAR
+D IC REG BUCK ADJ 2.5A SYNC 8SOPWR
+K voltage regulator smps switching switch mode power TI adjustable
+F /home/dj/datasheets/lmr23625.pdf
+$ENDCMP
+#
 $CMP MF-MSMF050-2
 D PTC RESET FUSE 15V 500MA 1812
 K resettable fuse PTC PPTC polyfuse polyswitch
@@ -115,7 +127,7 @@ F ~/datasheets/mfmsmf.pdf
 $ENDCMP
 #
 $CMP MP6513
-F ~/datasheets/MP6513.pdf
+F /home/dj/datasheets/MP6513.pdf
 $ENDCMP
 #
 $CMP NP_C_0402
