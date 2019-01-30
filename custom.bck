@@ -42,6 +42,12 @@ K AVR 8bit Microcontroller MegaAVR USB
 F http://ww1.microchip.com/downloads/en/DeviceDoc/Atmel-7766-8-bit-AVR-ATmega16U4-32U4_Datasheet.pdf
 $ENDCMP
 #
+$CMP AZ2117
+D IC REG LIN POS ADJ 1.5A SOT223
+K linear voltage regulator ldo
+F /home/dj/datasheets/AZ2117.pdf
+$ENDCMP
+#
 $CMP C0603C180K5RACAUTO
 D CAP CER SMD 0603 18PF 10% X7R 50V
 K ceramic c capacitor 18
@@ -52,6 +58,12 @@ $CMP CIS10P300AC
 D FERRITE BEAD 30 OHM 0603 1LN
 K inductor choke coil reactor magnetic
 F ~/datasheets/CIS10P300AC.pdf
+$ENDCMP
+#
+$CMP CL10B103KB8SFNC
+D CAP CER 10uF 50V X7R 0603
+K ceramic c capacitor 10uF 10 uF MLCC
+F /home/dj/datasheets/CL10B103KB8SFNC.pdf
 $ENDCMP
 #
 $CMP CL10B104KO8NNNC
@@ -74,7 +86,7 @@ $ENDCMP
 #
 $CMP CR0603-JW-103ELF
 D RES SMD 10K OHM 5% 1/10W 0603
-K resistor thick film tenth watt r
+K resistor thick film tenth watt r 10k0
 F ~/datasheets/chpreztr.pdf
 $ENDCMP
 #
@@ -138,16 +150,40 @@ D right angle slide switch dpdt
 K switch dual-pole double-throw DPDT spdt ON-ON
 $ENDCMP
 #
+$CMP RC0603JR-070RL
+D RES SMD 0 OHM JUMPER 1/10W 0603
+K jmp jmpr shunt short 0r 0r0
+F /home/dj/datasheets/PYu-RC_Group_51_RoHS_L_10.pdf
+$ENDCMP
+#
 $CMP RC0603JR-071KL
-D RES SMD 1K OHM 5% 1/10W 0603
-K resistor
+D RES SMD 1k OHM 5% 1/10W 0603
+K resistor r 1k0
 F ~/datasheets/PYu-RC_Group_51_RoHS_L_10.pdf
 $ENDCMP
 #
 $CMP RMCF0603FT22R0
 D RES 22 OHM 1% 1/10W 0603
-K resistor thick film impedance termination
+K resistor thick film impedance termination r 22r 22r0
 F ~/datasheets/SEI-RMCF_RMCP.pdf
+$ENDCMP
+#
+$CMP RMCF0603FT2K00
+D RES 2K OHM 1% 1/10W 0603
+K resistor r 2k0
+F /home/dj/datasheets/SEI-RMCF_RMCP.pdf
+$ENDCMP
+#
+$CMP RMCF0603FT4K70
+D RES 4.7K OHM 1% 1/10W 0603
+K resistor r 4k7
+F /home/dj/datasheets/SEI-RMCF_RMCP.pdf
+$ENDCMP
+#
+$CMP RMCF0603FT7K50
+D RES 7.5K OHM 1% 1/10W 0603
+K resistor r 7k5
+F /home/dj/datasheets/SEI-RMCF_RMCP.pdf
 $ENDCMP
 #
 $CMP R_US
