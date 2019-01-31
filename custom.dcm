@@ -105,7 +105,7 @@ $ENDCMP
 $CMP IRF9540N
 D -23A Id, -100V Vds, HEXFET P-Channel MOSFET, TO-220
 K HEXFET P-Channel MOSFET transistor power switch fet p
-F ~/datasheets/irf9540n.pdf
+F /home/dj/datasheets/irf9540n.pdf
 $ENDCMP
 #
 $CMP LED_GENERIC_0805
@@ -207,13 +207,31 @@ $ENDCMP
 $CMP SGM3157YC6
 D 4.5 Ohm Low Voltage SPDT Analog Switch
 K relay solid state ssr
-F ~/datasheets/SGM00371010.pdf
+F /home/dj/datasheets/SGM00371010.pdf
 $ENDCMP
 #
 $CMP SMAJ12A
 D TVS DIODE 12V 19.9V DO214AC
 K esd shock transient
 F /home/dj/datasheets/SMAJ_series.pdf
+$ENDCMP
+#
+$CMP SMAJ5.0A
+D TVS DIODE 5V 9.2V DO214AC
+K esd shock transient
+F /home/dj/datasheets/SMAJ_series.pdf
+$ENDCMP
+#
+$CMP SMS12T1G
+D QUAD TVS DIODE 12V 23V SC74
+K transient esd
+F /home/dj/datasheets/SMS05T1-D.PDF
+$ENDCMP
+#
+$CMP SSM3K35AMFV
+D N-Channel signal MOSFET
+K nmos n channel transistor nchannel fet
+F /home/dj/datasheets/SSM3K35AMFV.pdf
 $ENDCMP
 #
 $CMP VDD_BAT
