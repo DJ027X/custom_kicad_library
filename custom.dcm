@@ -78,6 +78,12 @@ K ceramic c capacitor
 F ~/datasheets/CL10B105KA8NNNC.pdf
 $ENDCMP
 #
+$CMP CL10B474KO8NNNC
+D CAP CER 0.47UF 16V X7R 0603
+K ceramic c capacitor 470nF 470 u47 u470 470n 470n0 mlcc cap
+F /home/dj/datasheets/CL10B474KO8NNNC.pdf
+$ENDCMP
+#
 $CMP CM1293A-04SO
 D QUAD TVS DIODE 3.3V 9.9V SC74
 K protection 3.3 9.9 static shock esd
@@ -100,6 +106,18 @@ $CMP ERB-RE4R00V
 D FUSE BOARD MOUNT 4A 32VDC 0603
 K f
 F /home/dj/datasheets/AFA0000C7.pdf
+$ENDCMP
+#
+$CMP ESH336M035AC3AA
+D 33uF Electrolytic Capacitor
+K cap capacitor c 3u3 3u3f
+F /home/dj/datasheets/KEM_A4005_ESH.pdf
+$ENDCMP
+#
+$CMP GRM188R61E225KA12D
+D CAP CER 2.2UF 25V X5R 0603
+K ceramic c capacitor 2u2 2u2F mlcc
+F /home/dj/datasheets/GRM188R61E225KA12.pdf
 $ENDCMP
 #
 $CMP IRF9540N
@@ -151,6 +169,12 @@ K esd shock transient
 F /home/dj/datasheets/SMAJ_series.pdf
 $ENDCMP
 #
+$CMP NR6028T2R2N
+D FIXED IND 2.2UH 3.7A 26 MOHM SMD
+K inductor choke coil reactor ferrite
+F /home/dj/datasheets/wound04_e.pdf
+$ENDCMP
+#
 $CMP PTH_0.5_mm
 D test point
 K test point tp
@@ -183,6 +207,12 @@ $ENDCMP
 $CMP RMCF0603FT2K00
 D RES 2K OHM 1% 1/10W 0603
 K resistor r 2k0
+F /home/dj/datasheets/SEI-RMCF_RMCP.pdf
+$ENDCMP
+#
+$CMP RMCF0603FT40K2
+D RES 40.2K OHM 1% 1/10W 0603
+K resistor thick film impedance termination r 40k2
 F /home/dj/datasheets/SEI-RMCF_RMCP.pdf
 $ENDCMP
 #
@@ -236,6 +266,10 @@ $ENDCMP
 #
 $CMP VDD_BAT
 D VDD_BAT power rail
+$ENDCMP
+#
+$CMP VDD_uC
+D VDD_uC power rail
 $ENDCMP
 #
 $CMP XT60_RA_FEMALE
