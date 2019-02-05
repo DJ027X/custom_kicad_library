@@ -138,6 +138,11 @@ K voltage regulator smps switching switch mode power TI adjustable
 F /home/dj/datasheets/lmr23625.pdf
 $ENDCMP
 #
+$CMP M4_MOUNTING_HOLE
+D M4 4.3mm Mounting Hole with connection
+K mounting hole pad metric pth
+$ENDCMP
+#
 $CMP MF-MSMF050-2
 D PTC RESET FUSE 15V 500MA 1812
 K resettable fuse PTC PPTC polyfuse polyswitch
@@ -146,6 +151,11 @@ $ENDCMP
 #
 $CMP MP6513
 F /home/dj/datasheets/MP6513.pdf
+$ENDCMP
+#
+$CMP NPTH_2mm
+D 2mm non-plated through hole
+K mounting hole pad metric pth
 $ENDCMP
 #
 $CMP NP_C_0402
@@ -266,6 +276,10 @@ $ENDCMP
 #
 $CMP VDD_BAT
 D VDD_BAT power rail
+$ENDCMP
+#
+$CMP VDD_uC
+D VDD_uC power rail
 $ENDCMP
 #
 $CMP XT60_RA_FEMALE
