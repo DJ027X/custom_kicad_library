@@ -146,7 +146,7 @@ $ENDCMP
 $CMP MF-MSMF050-2
 D PTC RESET FUSE 15V 500MA 1812
 K resettable fuse PTC PPTC polyfuse polyswitch
-F ~/datasheets/mfmsmf.pdf
+F /home/dj/datasheets/mfmsmf.pdf
 $ENDCMP
 #
 $CMP MP6513
