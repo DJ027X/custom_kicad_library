@@ -1,4 +1,4 @@
-(module TACTILE_SWITCH (layer F.Cu) (tedit 5C61A75F)
+(module TACTILE_SWITCH (layer F.Cu) (tedit 5C65FA4D)
   (fp_text reference REF** (at 0 -5.08) (layer F.SilkS)
     (effects (font (size 1 1) (thickness 0.15)))
   )
@@ -17,9 +17,9 @@
   (pad 1 thru_hole circle (at 3.25 -2.25) (size 2 2) (drill 1) (layers *.Cu *.Mask))
   (pad 2 thru_hole circle (at -3.25 2.25) (size 2 2) (drill 1) (layers *.Cu *.Mask))
   (pad 2 thru_hole circle (at 3.25 2.25) (size 2 2) (drill 1) (layers *.Cu *.Mask))
-  (model /home/dj/openscad_models/tactile_switch.wrl
+  (model /home/dj/custom_kicad_library/3d/tactile_switch.step
     (at (xyz 0 0 0))
-    (scale (xyz 0.397 0.397 0.397))
+    (scale (xyz 1 1 1))
     (rotate (xyz 0 0 0))
   )
 )
