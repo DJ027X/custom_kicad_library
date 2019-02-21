@@ -1,5 +1,5 @@
-(module DX4R105JJCR1800‎_MICRO_USB_B_CONNECTOR (layer F.Cu) (tedit 5C65FD5B)
-  (fp_text reference J11 (at 5.588 -1.016) (layer F.SilkS)
+(module DX4R105JJCR1800‎_MICRO_USB_B_CONNECTOR (layer F.Cu) (tedit 5C6E462F)
+  (fp_text reference REF** (at 5.588 -1.016) (layer F.SilkS)
     (effects (font (size 1 1) (thickness 0.15)))
   )
   (fp_text value DX4R105JJCR1800 (at 0.0508 6.0452) (layer F.Fab)

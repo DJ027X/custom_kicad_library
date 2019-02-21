@@ -1,5 +1,5 @@
-(module RCL12254R30JNEG (layer F.Cu) (tedit 5C329C7A)
-  (fp_text reference REF** (at 0 -12.7) (layer F.SilkS)
+(module RCL12254R30JNEG (layer F.Cu) (tedit 5C6E4674)
+  (fp_text reference REF** (at 0.254 -5.461) (layer F.SilkS)
     (effects (font (size 1 1) (thickness 0.15)))
   )
   (fp_text value RCL12254R30JNEG (at 0 6.35) (layer F.Fab)

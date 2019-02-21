@@ -168,6 +168,11 @@ D NP CAP 0603
 K NO NOT POP POPULATED NOPOP POPULATE
 $ENDCMP
 #
+$CMP NP_FUSE_0603
+D NP FUSE BOARD MOUNT 0603
+K f smd no pop nopop non not populated
+$ENDCMP
+#
 $CMP NP_R_0603
 D NOPOP RESISTOR
 K resistor no pop nopop np not populated non

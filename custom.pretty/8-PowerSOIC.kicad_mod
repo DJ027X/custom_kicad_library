@@ -1,5 +1,5 @@
-(module 8-PowerSOIC (layer F.Cu) (tedit 5C624C57)
-  (fp_text reference U5 (at 0 3.81) (layer F.SilkS)
+(module 8-PowerSOIC (layer F.Cu) (tedit 5C6E465C)
+  (fp_text reference REF** (at -0.127 -3.683) (layer F.SilkS)
     (effects (font (size 1 1) (thickness 0.15)))
   )
   (fp_text value LMR23625CFDDAR (at 0 4.064) (layer F.Fab)
