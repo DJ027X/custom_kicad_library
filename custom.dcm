@@ -89,7 +89,18 @@ K ceramic c capacitor 470nF 470 u47 u470 470n 470n0 mlcc cap
 F /home/dj/datasheets/CL10B474KO8NNNC.pdf
 $ENDCMP
 #
+$CMP CL21A226MOCLRNC
+D CAP CER 22uF 16V X5R 0805
+K ceramic c capacitor 22 MLCC
+$ENDCMP
+#
 $CMP CM1293A-04SO
+D QUAD TVS DIODE 3.3V 9.9V SC74
+K protection 3.3 9.9 static shock esd
+F ~/datasheets/CM1293A-04SO-D.PDF
+$ENDCMP
+#
+$CMP CM1293A-04SO_ALTERNATE_SYMBOL
 D QUAD TVS DIODE 3.3V 9.9V SC74
 K protection 3.3 9.9 static shock esd
 F ~/datasheets/CM1293A-04SO-D.PDF
@@ -101,10 +112,21 @@ K resistor thick film tenth watt r 10k0
 F ~/datasheets/chpreztr.pdf
 $ENDCMP
 #
+$CMP CRG0603F4K7
+D RES 4.7K OHM 5% 1/10W 0603
+K resistor r 4k7
+F /home/dj/datasheets/Pyu-RC_Group_51_RoHS_L_9.pdf
+$ENDCMP
+#
 $CMP DMG6602
 D DUAL MOSFET N/P-CH 30V TSOT23-6
 K transistor cmos
 F /home/dj/datasheets/DMG6602SVT.pdf
+$ENDCMP
+#
+$CMP EEE-1VA220SP
+D CAP ALUMINUM ELECTROLYTIC 22uF 35V
+K cap capacitor polarized
 $ENDCMP
 #
 $CMP ERB-RE4R00V
@@ -117,6 +139,10 @@ $CMP ESH336M035AC3AA
 D 33uF Electrolytic Capacitor
 K cap capacitor c 3u3 3u3f
 F /home/dj/datasheets/KEM_A4005_ESH.pdf
+$ENDCMP
+#
+$CMP FT2232D
+F /home/dj/datasheets/FT2232D.pdf
 $ENDCMP
 #
 $CMP GRM188R61E225KA12D
@@ -195,6 +221,12 @@ K inductor choke coil reactor ferrite
 F /home/dj/datasheets/wound04_e.pdf
 $ENDCMP
 #
+$CMP NX8045GB-6MHZ-STD-CSF-3
+D 6MHz ±20ppm Crystal 8pF 250 Ohms 2-SMD
+K osc oscilator crystal clock 6
+F ~/datasheets/NX8045GB.pdf
+$ENDCMP
+#
 $CMP PTH_0.5_mm
 D test point
 K test point tp
@@ -204,6 +236,11 @@ $ENDCMP
 $CMP RA_SLIDE_SWITCH_DPDT
 D right angle slide switch dpdt
 K switch dual-pole double-throw DPDT spdt ON-ON
+$ENDCMP
+#
+$CMP RC0603FR-0747KL
+D RES SMD 47K OHM 1% 1/10W 0603
+K resistor r 47k
 $ENDCMP
 #
 $CMP RC0603JR-070RL
