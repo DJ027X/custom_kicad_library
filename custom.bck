@@ -6,6 +6,11 @@ K osc oscilator crystal clock 16
 F ~/datasheets/2015TXC_7M_17.pdf
 $ENDCMP
 #
+$CMP 885012206087
+D CAP CER 4700pF 4.7nF 50V X7R 0603
+K ceramic c capacitor 4.7 MLCC
+$ENDCMP
+#
 $CMP ABM8G-12.000MHZ-B4Y-T
 D CRYSTAL 12.0000 MHz 10 pF SMD
 K clock osc oscilator oscillator 12
@@ -83,6 +88,12 @@ K ceramic c capacitor
 F ~/datasheets/CL10B105KA8NNNC.pdf
 $ENDCMP
 #
+$CMP CL10B333KB8SFNC
+D CAP CER 33nF 50V X7R 0603
+K ceramic c capacitor 33 MLCC
+F ~/datasheets/CL10B333KB8SFNC.pdf
+$ENDCMP
+#
 $CMP CL10B474KO8NNNC
 D CAP CER 0.47UF 16V X7R 0603
 K ceramic c capacitor 470nF 470 u47 u470 470n 470n0 mlcc cap
@@ -143,6 +154,11 @@ $ENDCMP
 #
 $CMP FT2232D
 F /home/dj/datasheets/FT2232D.pdf
+$ENDCMP
+#
+$CMP GRM1555C1H120JA01D
+D CAP CER 12pF 50V C0G/NP0 0402
+K ceramic c capacitor 12 MLCC C0G NP0
 $ENDCMP
 #
 $CMP GRM188R61E225KA12D
