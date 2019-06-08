@@ -1,5 +1,9 @@
 EESchema-DOCLIB  Version 2.0
 #
+$CMP 74HC595
+F ~/datasheets/74HC_HCT595.pdf
+$ENDCMP
+#
 $CMP 7M-16.000MAAE-T
 D CRYSTAL 16.0000 MHz 12pF SMD
 K osc oscilator crystal clock 16
@@ -115,6 +119,11 @@ $CMP CM1293A-04SO_ALTERNATE_SYMBOL
 D QUAD TVS DIODE 3.3V 9.9V SC74
 K protection 3.3 9.9 static shock esd
 F ~/datasheets/CM1293A-04SO-D.PDF
+$ENDCMP
+#
+$CMP CR0603-FX-3242ELF
+D RES SMD 32.4K OHM 1% 1/10W 0603
+K resistor r 32k4
 $ENDCMP
 #
 $CMP CR0603-JW-103ELF
@@ -271,6 +280,11 @@ K resistor r 1k0
 F ~/datasheets/PYu-RC_Group_51_RoHS_L_10.pdf
 $ENDCMP
 #
+$CMP RMCF0603FT10K0
+D RES 10K OHM 1% 1/10W 0603
+K resistor thick film tenth watt r 10k0
+$ENDCMP
+#
 $CMP RMCF0603FT22R0
 D RES 22 OHM 1% 1/10W 0603
 K resistor thick film impedance termination r 22r 22r0
@@ -361,6 +375,11 @@ $CMP ‎CL21A475KLCLQNC‎
 D CAP CER 4.7uF 35V X5R 0805
 K ceramic capacitor c
 F ~/datasheets/CL21A475KLCLQNC.pdf
+$ENDCMP
+#
+$CMP ‎RMCF0603FT470R‎
+D RES 470 OHM 1% 1/10W 0603
+K resistor r 470
 $ENDCMP
 #
 #End Doc Library
