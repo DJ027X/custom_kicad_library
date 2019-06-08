@@ -1,5 +1,9 @@
 EESchema-DOCLIB  Version 2.0
 #
+$CMP 74HC595
+F ~/datasheets/74HC_HCT595.pdf
+$ENDCMP
+#
 $CMP 7M-16.000MAAE-T
 D CRYSTAL 16.0000 MHz 12pF SMD
 K osc oscilator crystal clock 16
