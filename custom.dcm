@@ -258,6 +258,12 @@ K osc oscilator crystal clock 6
 F ~/datasheets/NX8045GB.pdf
 $ENDCMP
 #
+$CMP PASSIVE_BUZZER
+D piezo buzzer
+K passive
+F ~
+$ENDCMP
+#
 $CMP PTH_0.5_mm
 D test point
 K test point tp

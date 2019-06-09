@@ -214,6 +214,12 @@ D 2mm non-plated through hole
 K mounting hole pad metric pth
 $ENDCMP
 #
+$CMP NP_470uF
+D Polarized capacitor, US symbol
+K cap capacitor
+F ~
+$ENDCMP
+#
 $CMP NP_C_0402
 D NP CAP 0402
 K NOPOP NON NOT POPULATE NO POP POPULATED
@@ -250,6 +256,12 @@ $CMP NX8045GB-6MHZ-STD-CSF-3
 D 6MHz ±20ppm Crystal 8pF 250 Ohms 2-SMD
 K osc oscilator crystal clock 6
 F ~/datasheets/NX8045GB.pdf
+$ENDCMP
+#
+$CMP PASSIVE_BUZZER
+D Buzzer, polarized
+K quartz resonator ceramic
+F ~
 $ENDCMP
 #
 $CMP PTH_0.5_mm
