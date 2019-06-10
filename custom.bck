@@ -21,6 +21,12 @@ K clock osc oscilator oscillator 12
 F ~/datasheets/ABM8G.pdf
 $ENDCMP
 #
+$CMP AC0603JR-07200RL
+D RES SMD 200 OHM 5% 1/10W 0603
+K R res resistor
+F ~
+$ENDCMP
+#
 $CMP AO3407A
 D P-Channel signal MOSFET
 K pmos pmosfet pfet p channel transistor
@@ -121,6 +127,12 @@ K protection 3.3 9.9 static shock esd
 F ~/datasheets/CM1293A-04SO-D.PDF
 $ENDCMP
 #
+$CMP CR0603-FX-3003ELF
+D RES SMD 300K OHM 1% 1/10W 0603
+K R res resistor 300 300k0
+F ~
+$ENDCMP
+#
 $CMP CR0603-FX-3242ELF
 D RES SMD 32.4K OHM 1% 1/10W 0603
 K resistor r 32k4
@@ -153,6 +165,12 @@ $CMP ERB-RE4R00V
 D FUSE BOARD MOUNT 4A 32VDC 0603
 K f
 F /home/dj/datasheets/AFA0000C7.pdf
+$ENDCMP
+#
+$CMP ERJ-3EKF1433V
+D RES SMD 143K OHM 1% 1/10W 0603
+K R res resistor 143k0
+F ~
 $ENDCMP
 #
 $CMP ESH336M035AC3AA
@@ -259,8 +277,8 @@ F ~/datasheets/NX8045GB.pdf
 $ENDCMP
 #
 $CMP PASSIVE_BUZZER
-D Buzzer, polarized
-K quartz resonator ceramic
+D piezo buzzer
+K passive
 F ~
 $ENDCMP
 #
@@ -277,7 +295,7 @@ $ENDCMP
 #
 $CMP RC0603FR-0747KL
 D RES SMD 47K OHM 1% 1/10W 0603
-K resistor r 47k
+K resistor r 47k 47k0
 $ENDCMP
 #
 $CMP RC0603JR-070RL
@@ -292,9 +310,21 @@ K resistor r 1k0
 F ~/datasheets/PYu-RC_Group_51_RoHS_L_10.pdf
 $ENDCMP
 #
+$CMP RMCF0603FG100K
+D RES 100K OHM 1% 1/10W 0603
+K R res resistor 100k0
+F ~
+$ENDCMP
+#
 $CMP RMCF0603FT10K0
 D RES 10K OHM 1% 1/10W 0603
 K resistor thick film tenth watt r 10k0
+$ENDCMP
+#
+$CMP RMCF0603FT16K2
+D RES 16.2K OHM 1% 1/10W 0603
+K R res resistor
+F ~
 $ENDCMP
 #
 $CMP RMCF0603FT22R0
@@ -321,10 +351,22 @@ K resistor r 4k7
 F /home/dj/datasheets/SEI-RMCF_RMCP.pdf
 $ENDCMP
 #
+$CMP RMCF0603FT59K0
+D RES 59K OHM 1% 1/10W 0603
+K R res resistor 59k 59k0
+F ~
+$ENDCMP
+#
 $CMP RMCF0603FT7K50
 D RES 7.5K OHM 1% 1/10W 0603
 K resistor r 7k5
 F /home/dj/datasheets/SEI-RMCF_RMCP.pdf
+$ENDCMP
+#
+$CMP RMCF0603JT13K0
+D Resistor
+K R res resistor
+F ~
 $ENDCMP
 #
 $CMP R_US
