@@ -327,6 +327,11 @@ K R res resistor
 F ~
 $ENDCMP
 #
+$CMP RMCF0603FT1K50
+D RES 1.5K OHM 1% 1/10W 0603
+K resistor r 1k5
+$ENDCMP
+#
 $CMP RMCF0603FT22R0
 D RES 22 OHM 1% 1/10W 0603
 K resistor thick film impedance termination r 22r 22r0
