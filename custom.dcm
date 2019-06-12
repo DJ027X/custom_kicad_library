@@ -288,6 +288,10 @@ K test point tp
 F ~
 $ENDCMP
 #
+$CMP PTH_1.5_mm
+K plated through hole test point
+$ENDCMP
+#
 $CMP RA_SLIDE_SWITCH_DPDT
 D right angle slide switch dpdt
 K switch dual-pole double-throw DPDT spdt ON-ON
