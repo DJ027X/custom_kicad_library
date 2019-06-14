@@ -390,6 +390,11 @@ K relay solid state ssr
 F /home/dj/datasheets/SGM00371010.pdf
 $ENDCMP
 #
+$CMP SK510L
+D DIODE SCHOTTKY 100V 5A DO214AB
+F /home/dj/datasheets/SKL510.PDF
+$ENDCMP
+#
 $CMP SMAJ12A
 D TVS DIODE 12V 19.9V DO214AC
 K esd shock transient

@@ -288,6 +288,10 @@ K test point tp
 F ~
 $ENDCMP
 #
+$CMP PTH_1.5_mm
+K plated through hole test point
+$ENDCMP
+#
 $CMP RA_SLIDE_SWITCH_DPDT
 D right angle slide switch dpdt
 K switch dual-pole double-throw DPDT spdt ON-ON
@@ -384,6 +388,11 @@ $CMP SGM3157YC6
 D 4.5 Ohm Low Voltage SPDT Analog Switch
 K relay solid state ssr
 F /home/dj/datasheets/SGM00371010.pdf
+$ENDCMP
+#
+$CMP SK510L
+D DIODE SCHOTTKY 100V 5A DO214AB
+F /home/dj/datasheets/SKL510.PDF
 $ENDCMP
 #
 $CMP SMAJ12A
