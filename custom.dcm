@@ -1,5 +1,15 @@
 EESchema-DOCLIB  Version 2.0
 #
+$CMP #B966AS-120M=P3
+D 12uH Shielded Wirewound Inductor 3.7A 35mOhm Max
+K inductor choke coil reactor magnetic
+F ~
+$ENDCMP
+#
+$CMP 3x32_1&3_loaded_2.5mm_0.1in_female_header
+K 32x3
+$ENDCMP
+#
 $CMP 74HC595
 F ~/datasheets/74HC_HCT595.pdf
 $ENDCMP
@@ -61,6 +71,11 @@ $CMP AZ2117
 D IC REG LIN POS ADJ 1.5A SOT223
 K linear voltage regulator ldo
 F /home/dj/datasheets/AZ2117.pdf
+$ENDCMP
+#
+$CMP BLM31SN500SZ1L
+D FERRITE BEAD 50 OHM 1206 1LN
+K FB L
 $ENDCMP
 #
 $CMP C0603C180K5RACAUTO
@@ -179,6 +194,11 @@ K cap capacitor c 3u3 3u3f
 F /home/dj/datasheets/KEM_A4005_ESH.pdf
 $ENDCMP
 #
+$CMP FE310-G000
+D RISC-V Based Microcontroller
+K sifive
+$ENDCMP
+#
 $CMP FT2232D
 F /home/dj/datasheets/FT2232D.pdf
 $ENDCMP
@@ -215,6 +235,12 @@ $ENDCMP
 $CMP M4_MOUNTING_HOLE
 D M4 4.3mm Mounting Hole with connection
 K mounting hole pad metric pth
+$ENDCMP
+#
+$CMP MAKK2016T3R3M
+D 3.3uH Shielded Wirewound Inductor 1.2A 255mOhm Max 0806
+K inductor choke coil reactor magnetic
+F ~
 $ENDCMP
 #
 $CMP MF-MSMF050-2
@@ -268,6 +294,12 @@ $CMP NR6028T2R2N
 D FIXED IND 2.2UH 3.7A 26 MOHM SMD
 K inductor choke coil reactor ferrite
 F /home/dj/datasheets/wound04_e.pdf
+$ENDCMP
+#
+$CMP NRS5020T6R8MMGJ
+D FIXED IND 6.8UH 1.65A 108 MOHM
+K inductor choke coil reactor magnetic
+F ~
 $ENDCMP
 #
 $CMP NX8045GB-6MHZ-STD-CSF-3
@@ -417,6 +449,11 @@ $CMP SSM3K35AMFV
 D N-Channel signal MOSFET
 K nmos n channel transistor nchannel fet
 F /home/dj/datasheets/SSM3K35AMFV.pdf
+$ENDCMP
+#
+$CMP TPS61175
+D IC REG MULT CONFIG ADJ 14HTSSOP
+K SMPS BOOST
 $ENDCMP
 #
 $CMP VDD_BAT
