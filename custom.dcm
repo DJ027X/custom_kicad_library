@@ -290,6 +290,10 @@ K esd shock transient
 F /home/dj/datasheets/SMAJ_series.pdf
 $ENDCMP
 #
+$CMP NP_TACTILE_SWITCH_SMALL
+K no pop dnp nopop
+$ENDCMP
+#
 $CMP NR6028T2R2N
 D FIXED IND 2.2UH 3.7A 26 MOHM SMD
 K inductor choke coil reactor ferrite
