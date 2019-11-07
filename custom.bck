@@ -290,6 +290,10 @@ K esd shock transient
 F /home/dj/datasheets/SMAJ_series.pdf
 $ENDCMP
 #
+$CMP NP_TACTILE_SWITCH_SMALL
+K no pop dnp nopop
+$ENDCMP
+#
 $CMP NR6028T2R2N
 D FIXED IND 2.2UH 3.7A 26 MOHM SMD
 K inductor choke coil reactor ferrite
@@ -422,6 +426,12 @@ K relay solid state ssr
 F /home/dj/datasheets/SGM00371010.pdf
 $ENDCMP
 #
+$CMP SJ1-3535NS
+D Audio Jack, 2 Poles (Mono / TS), Grounded Sleeve, Switched Pole (Normalling)
+K audio jack receptacle mono headphones phone TS connector
+F ~
+$ENDCMP
+#
 $CMP SK510L
 D DIODE SCHOTTKY 100V 5A DO214AB
 F /home/dj/datasheets/SKL510.PDF
@@ -454,6 +464,10 @@ $ENDCMP
 $CMP TPS61175
 D IC REG MULT CONFIG ADJ 14HTSSOP
 K SMPS BOOST
+$ENDCMP
+#
+$CMP VDD
+D VDD_BAT power rail
 $ENDCMP
 #
 $CMP VDD_BAT
