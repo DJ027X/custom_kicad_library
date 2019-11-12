@@ -427,8 +427,8 @@ F /home/dj/datasheets/SGM00371010.pdf
 $ENDCMP
 #
 $CMP SJ1-3535NS
-D Audio Jack, 2 Poles (Mono / TS), Grounded Sleeve, Switched Pole (Normalling)
-K audio jack receptacle mono headphones phone TS connector
+D Audio Jack, 2 Poles, SHIELDED
+K audio jack receptacle connector 3.5mm 3.5
 F ~
 $ENDCMP
 #
