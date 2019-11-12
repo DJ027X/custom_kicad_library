@@ -414,6 +414,12 @@ K R res resistor
 F ~
 $ENDCMP
 #
+$CMP R_POT
+D 2 gang 10k pot spst rotary switch
+K resistor variable pot dual ganged 10000 10k0 ohm
+F ~
+$ENDCMP
+#
 $CMP R_US
 D Resistor, US symbol
 K R res resistor
