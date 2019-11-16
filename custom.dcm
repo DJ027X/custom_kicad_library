@@ -312,6 +312,12 @@ K osc oscilator crystal clock 6
 F ~/datasheets/NX8045GB.pdf
 $ENDCMP
 #
+$CMP OPA1664A
+D quad opamp
+K op-amp operational amplifier audio
+F ~
+$ENDCMP
+#
 $CMP PASSIVE_BUZZER
 D piezo buzzer
 K passive
@@ -326,6 +332,12 @@ $ENDCMP
 #
 $CMP PTH_1.5_mm
 K plated through hole test point
+$ENDCMP
+#
+$CMP PTR902-2020K-A103
+D 2 gang 10k pot spst rotary switch
+K resistor variable pot dual ganged 10000 10k0 ohm
+F ~
 $ENDCMP
 #
 $CMP RA_SLIDE_SWITCH_DPDT
@@ -356,9 +368,21 @@ K R res resistor 100k0
 F ~
 $ENDCMP
 #
+$CMP RMCF0603FT100R
+D RES 100 OHM 1% 1/10W 0603
+K resistor r 100r0
+F /home/dj/datasheets/SEI-RMCF_RMCP.pdf
+$ENDCMP
+#
 $CMP RMCF0603FT10K0
 D RES 10K OHM 1% 1/10W 0603
 K resistor thick film tenth watt r 10k0
+$ENDCMP
+#
+$CMP RMCF0603FT10R0
+D RES 10 OHM 1% 1/10W 0603
+K resistor r 10r0
+F /home/dj/datasheets/SEI-RMCF_RMCP.pdf
 $ENDCMP
 #
 $CMP RMCF0603FT16K2
@@ -411,12 +435,6 @@ $ENDCMP
 $CMP RMCF0603JT13K0
 D Resistor
 K R res resistor
-F ~
-$ENDCMP
-#
-$CMP R_POT
-D 2 gang 10k pot spst rotary switch
-K resistor variable pot dual ganged 10000 10k0 ohm
 F ~
 $ENDCMP
 #
