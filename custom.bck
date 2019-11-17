@@ -312,8 +312,32 @@ K osc oscilator crystal clock 6
 F ~/datasheets/NX8045GB.pdf
 $ENDCMP
 #
+$CMP OPA1604A
+D quad opamp
+K op-amp operational amplifier audio
+F ~
+$ENDCMP
+#
+$CMP OPA1654A
+D quad opamp
+K op-amp operational amplifier audio
+F ~
+$ENDCMP
+#
 $CMP OPA1664A
 D quad opamp
+K op-amp operational amplifier audio
+F ~
+$ENDCMP
+#
+$CMP OPA1688
+D dual opamp
+K op-amp operational amplifier audio
+F ~
+$ENDCMP
+#
+$CMP OPA2810
+D dual opamp
 K op-amp operational amplifier audio
 F ~
 $ENDCMP
@@ -438,12 +462,6 @@ K R res resistor
 F ~
 $ENDCMP
 #
-$CMP R_POT
-D 2 gang 10k pot spst rotary switch
-K resistor variable pot dual ganged 10000 10k0 ohm
-F ~
-$ENDCMP
-#
 $CMP R_US
 D Resistor, US symbol
 K R res resistor
@@ -494,6 +512,18 @@ $ENDCMP
 $CMP TPS61175
 D IC REG MULT CONFIG ADJ 14HTSSOP
 K SMPS BOOST
+$ENDCMP
+#
+$CMP TVL9002
+D dual opamp
+K op-amp operational amplifier audio
+F ~
+$ENDCMP
+#
+$CMP TVL9062
+D dual opamp
+K op-amp operational amplifier audio
+F ~
 $ENDCMP
 #
 $CMP VDD
