@@ -10,6 +10,11 @@ $CMP 3x32_1&3_loaded_2.5mm_0.1in_female_header
 K 32x3
 $ENDCMP
 #
+$CMP 74HC4066D
+D quad switch
+K Analog Switch SPST
+$ENDCMP
+#
 $CMP 74HC595
 F ~/datasheets/74HC_HCT595.pdf
 $ENDCMP
@@ -554,6 +559,12 @@ $CMP ‎CL21A475KLCLQNC‎
 D CAP CER 4.7uF 35V X5R 0805
 K ceramic capacitor c
 F ~/datasheets/CL21A475KLCLQNC.pdf
+$ENDCMP
+#
+$CMP ‎RMCF0603FT1M00‎
+D RES 1M OHM 1% 1/10W 0603
+K resistor r 1M0
+F /home/dj/datasheets/SEI-RMCF_RMCP.pdf
 $ENDCMP
 #
 $CMP ‎RMCF0603FT470R‎
