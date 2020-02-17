@@ -231,6 +231,12 @@ K LED diode
 F ~
 $ENDCMP
 #
+$CMP LM358P
+D IC OPAMP 2 CIRCUIT 8DIP
+K dual opamp amp operational amplifier
+F ~/datasheets/LM358P.pdf
+$ENDCMP
+#
 $CMP LMR23625CFDDAR
 D IC REG BUCK ADJ 2.5A SYNC 8SOPWR
 K voltage regulator smps switching switch mode power TI adjustable
@@ -246,6 +252,12 @@ $CMP MAKK2016T3R3M
 D 3.3uH Shielded Wirewound Inductor 1.2A 255mOhm Max 0806
 K inductor choke coil reactor magnetic
 F ~
+$ENDCMP
+#
+$CMP MCP6004
+D Quad Operational Amplifier DIP
+K quad opamp operational amplifier amp comparator
+F ~/datasheets/MCP6004.pdf
 $ENDCMP
 #
 $CMP MF-MSMF050-2
@@ -471,6 +483,12 @@ $CMP R_US
 D Resistor, US symbol
 K R res resistor
 F ~
+$ENDCMP
+#
+$CMP SE555P
+D Timer, DIP-8/SOIC-8/SSOP-8
+K single timer
+F http://www.ti.com/lit/ds/symlink/lm555.pdf
 $ENDCMP
 #
 $CMP SGM3157YC6
