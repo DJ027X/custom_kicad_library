@@ -237,6 +237,12 @@ K dual opamp amp operational amplifier
 F ~/datasheets/LM358P.pdf
 $ENDCMP
 #
+$CMP LMC660
+D Quad Operational Amplifier DIP
+K quad opamp operational amplifier amp comparator
+F ~/datasheets/LMC660.pdf
+$ENDCMP
+#
 $CMP LMR23625CFDDAR
 D IC REG BUCK ADJ 2.5A SYNC 8SOPWR
 K voltage regulator smps switching switch mode power TI adjustable
