@@ -491,6 +491,12 @@ K R res resistor
 F ~
 $ENDCMP
 #
+$CMP SCD7805BTG
+D 5V linear regulator
+K Voltage Regulator 1A Positive
+F ~/datasheets/SCD7805BTG.pdf
+$ENDCMP
+#
 $CMP SE555P
 D Timer, DIP-8/SOIC-8/SSOP-8
 K single timer
