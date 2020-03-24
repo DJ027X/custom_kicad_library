@@ -260,6 +260,12 @@ K inductor choke coil reactor magnetic
 F ~
 $ENDCMP
 #
+$CMP MCP6002
+D Dual Operational Amplifier DIP
+K dual opamp operational amplifier amp comparator
+F ~/datasheets/MCP6004.pdf
+$ENDCMP
+#
 $CMP MCP6004
 D Quad Operational Amplifier DIP
 K quad opamp operational amplifier amp comparator
