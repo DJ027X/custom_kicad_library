@@ -347,6 +347,12 @@ K op-amp operational amplifier audio
 F ~
 $ENDCMP
 #
+$CMP OPA1652
+D dual opamp
+K op-amp operational amplifier audio
+F ~/datasheets/OPA165x.pdf
+$ENDCMP
+#
 $CMP OPA1654A
 D quad opamp
 K op-amp operational amplifier audio
