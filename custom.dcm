@@ -10,6 +10,12 @@ $CMP 3x32_1&3_loaded_2.5mm_0.1in_female_header
 K 32x3
 $ENDCMP
 #
+$CMP 712RA
+D DC Barrel Jack with switch
+K panel mount th through hole connector 2.5mm ID 5.5mm OD
+F ~
+$ENDCMP
+#
 $CMP 74HC4066D
 D quad switch
 K Analog Switch SPST
@@ -145,6 +151,12 @@ $CMP CM1293A-04SO_ALTERNATE_SYMBOL
 D QUAD TVS DIODE 3.3V 9.9V SC74
 K protection 3.3 9.9 static shock esd
 F /home/dj/datasheets/CM1293A-04SO-D.PDF
+$ENDCMP
+#
+$CMP CR0603-FX-2002ELF
+D RES SMD 20K OHM 1% 1/10W 0603
+K resistor thick film tenth watt r 20k0
+F /home/dj/datasheets/CR0603-FX-2002ELF.pdf
 $ENDCMP
 #
 $CMP CR0603-FX-3003ELF
@@ -425,6 +437,12 @@ $CMP RMCF0603FG100K
 D RES 100K OHM 1% 1/10W 0603
 K R res resistor 100k0
 F ~
+$ENDCMP
+#
+$CMP RMCF0603FG1K00
+D RES 1K OHM 1% 1/10W 0603
+K resistor thick film tenth 0.1 r 1k0
+F /home/dj/datasheets/RMCF0603FG1K00.pdf
 $ENDCMP
 #
 $CMP RMCF0603FT100R
