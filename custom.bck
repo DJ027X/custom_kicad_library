@@ -16,6 +16,12 @@ K panel mount th through hole connector 2.5mm ID 5.5mm OD
 F ~
 $ENDCMP
 #
+$CMP 744272471
+D common mode choke 470UH 1.6A 2LN 1.75 KOHM SMD
+K EMI filter cmc
+F /home/dj/datasheets/744272471.pdf
+$ENDCMP
+#
 $CMP 74HC4066D
 D quad switch
 K Analog Switch SPST
@@ -191,6 +197,12 @@ $ENDCMP
 $CMP EEE-1VA220SP
 D CAP ALUMINUM ELECTROLYTIC 22uF 35V
 K cap capacitor polarized
+$ENDCMP
+#
+$CMP EMI_Filter_CommonMode
+D EMI 2-inductor common mode filter
+K EMI common mode filter
+F ~
 $ENDCMP
 #
 $CMP ERB-RE4R00V
@@ -578,6 +590,12 @@ $CMP SSM3K35AMFV
 D N-Channel signal MOSFET
 K nmos n channel transistor nchannel fet
 F /home/dj/datasheets/SSM3K35AMFV.pdf
+$ENDCMP
+#
+$CMP SolderJumper_2_Open
+D Solder Jumper, 2-pole, open
+K solder jumper SPST
+F ~
 $ENDCMP
 #
 $CMP TPS61175
