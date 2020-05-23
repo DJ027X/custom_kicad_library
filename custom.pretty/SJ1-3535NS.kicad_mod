@@ -1,4 +1,4 @@
-(module SJ1-3535NS (layer F.Cu) (tedit 5DD0320C)
+(module SJ1-3535NS (layer F.Cu) (tedit 5EC9B7A9)
   (fp_text reference REF** (at 5.8 -7.1) (layer F.SilkS)
     (effects (font (size 1 1) (thickness 0.15)))
   )
@@ -20,4 +20,9 @@
   (pad S3 thru_hole rect (at 9.9 -3.55 90) (size 1.5 2.5) (drill oval 1 2) (layers *.Cu *.Mask))
   (pad S2 thru_hole rect (at 9.9 5.05 90) (size 1.5 2.5) (drill oval 1 2) (layers *.Cu *.Mask))
   (pad S1 thru_hole rect (at 1 5.05 90) (size 1.5 2.5) (drill oval 1 2) (layers *.Cu *.Mask))
+  (model /home/dj/custom_kicad_library/3d/SJ1-353XNS.step
+    (offset (xyz -1.5 -5.5 0))
+    (scale (xyz 1 1 1))
+    (rotate (xyz 0 0 90))
+  )
 )
