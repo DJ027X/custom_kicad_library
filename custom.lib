@@ -624,7 +624,7 @@ F0 "C" 150 100 50 H V L BNN
 F1 "CL10B103KB8SFNC" -750 -450 50 H I L BNN
 F2 "Capacitor_SMD:C_0603_1608Metric" -750 -550 50 H I L BNN
 F3 "/home/dj/datasheets/CL10B103KB8SFNC.pdf" -750 -650 50 H I L BNN
-F4 "10uF" 150 0 50 H V L BNN "Capacitance"
+F4 "10nF" 150 0 50 H V L BNN "Capacitance"
 F5 "50V" 150 -100 50 H V L BNN "Rating"
 $FPLIST
  0603
