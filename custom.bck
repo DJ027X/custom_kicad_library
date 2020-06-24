@@ -113,8 +113,8 @@ F ~/datasheets/CIS10P300AC.pdf
 $ENDCMP
 #
 $CMP CL10B103KB8SFNC
-D CAP CER 10uF 50V X7R 0603
-K ceramic c capacitor 10uF 10 uF MLCC
+D CAP CER 10nF 50V X7R 0603
+K ceramic c capacitor MLCC
 F /home/dj/datasheets/CL10B103KB8SFNC.pdf
 $ENDCMP
 #

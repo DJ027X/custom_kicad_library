@@ -302,6 +302,12 @@ K resettable fuse PTC PPTC polyfuse polyswitch
 F /home/dj/datasheets/mfmsmf.pdf
 $ENDCMP
 #
+$CMP MIC5366
+D IC REG LINEAR 2V 150MA SC70-5
+K LDO Regulator Fixed Positive
+F ~/datasheets/mic5365.pdf
+$ENDCMP
+#
 $CMP MP6513
 F /home/dj/datasheets/MP6513.pdf
 $ENDCMP
