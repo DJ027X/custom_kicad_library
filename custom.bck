@@ -6,6 +6,11 @@ K inductor choke coil reactor magnetic
 F ~
 $ENDCMP
 #
+$CMP +2V0
+D Power flag, +2.0V
+K power-flag
+$ENDCMP
+#
 $CMP 3x32_1&3_loaded_2.5mm_0.1in_female_header
 K 32x3
 $ENDCMP
@@ -300,6 +305,12 @@ $CMP MF-MSMF050-2
 D PTC RESET FUSE 15V 500MA 1812
 K resettable fuse PTC PPTC polyfuse polyswitch
 F /home/dj/datasheets/mfmsmf.pdf
+$ENDCMP
+#
+$CMP MIC5366-2.0YC5
+D IC REG LINEAR 2V 150MA SC70-5
+K LDO Regulator Fixed Positive
+F ~/datasheets/mic5365.pdf
 $ENDCMP
 #
 $CMP MP6513
