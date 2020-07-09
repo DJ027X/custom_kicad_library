@@ -11,6 +11,11 @@ D Power flag, +2.0V
 K power-flag
 $ENDCMP
 #
+$CMP -2V0
+D Power flag, -2.0V
+K power-flag
+$ENDCMP
+#
 $CMP 3x32_1&3_loaded_2.5mm_0.1in_female_header
 K 32x3
 $ENDCMP
