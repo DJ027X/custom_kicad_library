@@ -265,6 +265,12 @@ K LED diode
 F ~
 $ENDCMP
 #
+$CMP LM2594-DADJ
+D 3.3V, 0.5A SIMPLE SWITCHER® Step-Down Voltage Regulator, Maximum VIN 45V, SOIC-8
+K buck converter regulator step-down voltage simple switcher fixed
+F /home/dj/datasheets/LM2594-D.pdf
+$ENDCMP
+#
 $CMP LM358P
 D IC OPAMP 2 CIRCUIT 8DIP
 K dual opamp amp operational amplifier
@@ -341,6 +347,11 @@ $ENDCMP
 $CMP NP_C_0603
 D NP CAP 0603
 K NO NOT POP POPULATED NOPOP POPULATE
+$ENDCMP
+#
+$CMP NP_C_1206
+D NP CAP 1206
+K NO NOT POP POPULATED NOPOP POPULATE capacitor
 $ENDCMP
 #
 $CMP NP_FUSE_0603
