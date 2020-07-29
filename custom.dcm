@@ -204,6 +204,12 @@ K transistor cmos
 F /home/dj/datasheets/DMG6602SVT.pdf
 $ENDCMP
 #
+$CMP DSS15UTR
+D SCHOTTKY 50V SOD-123FL
+K d diode
+F /home/dj/datasheets/DSS15UTR.pdf
+$ENDCMP
+#
 $CMP EEE-1VA220SP
 D CAP ALUMINUM ELECTROLYTIC 22uF 35V
 K cap capacitor polarized
@@ -289,6 +295,12 @@ K quad opamp operational amplifier amp comparator
 F ~/datasheets/LMC660.pdf
 $ENDCMP
 #
+$CMP LMK316BBJ107ML
+D CAP MLCC 1206 10V X5R 100uF
+K ceramic c capacitor 100u .1m 0.1m 0.1
+F /home/dj/datasheets/‎mlcc06_e.pdf
+$ENDCMP
+#
 $CMP LMR23625CFDDAR
 D IC REG BUCK ADJ 2.5A SYNC 8SOPWR
 K voltage regulator smps switching switch mode power TI adjustable
@@ -328,6 +340,12 @@ $CMP MIC5366-2.0YC5
 D IC REG LINEAR 2V 150MA SC70-5
 K LDO Regulator Fixed Positive
 F ~/datasheets/mic5365.pdf
+$ENDCMP
+#
+$CMP MLZ2012N6R8LT000
+D FIXED IND 6.8UH 550MA 250 MOHM
+K inductor choke coil
+F /home/dj/datasheets/MLZ2012N6R8LT000.pdf
 $ENDCMP
 #
 $CMP MP6513
@@ -384,6 +402,12 @@ $CMP NR6028T2R2N
 D FIXED IND 2.2UH 3.7A 26 MOHM SMD
 K inductor choke coil reactor ferrite
 F /home/dj/datasheets/wound04_e.pdf
+$ENDCMP
+#
+$CMP NRS4018T221MDGJ
+D FIXED IND 220UH 170MA 4.56 OHM
+K inductor choke coil
+F /home/dj/datasheets/NRS4018T221MDGJ_SS.pdf
 $ENDCMP
 #
 $CMP NRS5020T6R8MMGJ
@@ -670,6 +694,12 @@ $CMP XT60_RA_MALE
 D XT60 Male RA
 K connector right angle through hole
 F /home/dj/datasheets/XT60PW.pdf
+$ENDCMP
+#
+$CMP ‎CC0603JRNPO9BN101‎
+D CAP CER 100PF 50V C0G/NPO 0603
+K ceramic c capacitor 100p .1n 0.1n 0.1
+F /home/dj/datasheets/‎CC0603JRNPO9BN101‎.pdf
 $ENDCMP
 #
 $CMP ‎CL21A475KLCLQNC‎
