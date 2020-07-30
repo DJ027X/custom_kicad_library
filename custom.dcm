@@ -152,6 +152,11 @@ K ceramic c capacitor 470nF 470 u47 u470 470n 470n0 mlcc cap
 F /home/dj/datasheets/CL10B474KO8NNNC.pdf
 $ENDCMP
 #
+$CMP CL21A106KOQNNNE
+D CAP CER 10UF 16V X5R 0805
+K ceramic c capacitor 10 MLCC
+$ENDCMP
+#
 $CMP CL21A226MOCLRNC
 D CAP CER 22uF 16V X5R 0805
 K ceramic c capacitor 22 MLCC
