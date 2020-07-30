@@ -238,6 +238,12 @@ K R res resistor 143k0
 F ~
 $ENDCMP
 #
+$CMP ERJ-3RQJR62V
+D RES 0.62 OHM 5% 1/10W 0603
+K resistor thick film tenth watt r r62 0r62
+F /home/dj/datasheets/AOA0000C313.pdf
+$ENDCMP
+#
 $CMP ESH336M035AC3AA
 D 33uF Electrolytic Capacitor
 K cap capacitor c 3u3 3u3f
