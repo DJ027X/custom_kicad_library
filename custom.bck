@@ -152,6 +152,11 @@ K ceramic c capacitor 470nF 470 u47 u470 470n 470n0 mlcc cap
 F /home/dj/datasheets/CL10B474KO8NNNC.pdf
 $ENDCMP
 #
+$CMP CL21A106KOQNNNE
+D CAP CER 10UF 16V X5R 0805
+K ceramic c capacitor 10 MLCC
+$ENDCMP
+#
 $CMP CL21A226MOCLRNC
 D CAP CER 22uF 16V X5R 0805
 K ceramic c capacitor 22 MLCC
@@ -231,6 +236,12 @@ $CMP ERJ-3EKF1433V
 D RES SMD 143K OHM 1% 1/10W 0603
 K R res resistor 143k0
 F ~
+$ENDCMP
+#
+$CMP ERJ-3RQJR62V
+D RES 0.62 OHM 5% 1/10W 0603
+K resistor thick film tenth watt r r62 0r62
+F /home/dj/datasheets/AOA0000C313.pdf
 $ENDCMP
 #
 $CMP ESH336M035AC3AA
