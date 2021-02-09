@@ -16,6 +16,10 @@ D Power flag, -2.0V
 K power-flag
 $ENDCMP
 #
+$CMP 3V3
+D VDD_BAT power rail
+$ENDCMP
+#
 $CMP 3x32_1&3_loaded_2.5mm_0.1in_female_header
 K 32x3
 $ENDCMP
@@ -64,6 +68,11 @@ K R res resistor
 F ~
 $ENDCMP
 #
+$CMP AGND
+D Power symbol creates a global label with name "AGND"
+K power-flag analog ground
+$ENDCMP
+#
 $CMP AO3407A
 D P-Channel signal MOSFET
 K pmos pmosfet pfet p channel transistor
@@ -92,6 +101,11 @@ $CMP ATmega32U4RC-AU
 D 16MHz, 32kB Flash, 2.5kB SRAM, 1kB EEPROM, USB 2.0, RC Osc, TQFP-44
 K AVR 8bit Microcontroller MegaAVR USB
 F http://ww1.microchip.com/downloads/en/DeviceDoc/Atmel-7766-8-bit-AVR-ATmega16U4-32U4_Datasheet.pdf
+$ENDCMP
+#
+$CMP AVDD
+D AVDD power rail
+K analog
 $ENDCMP
 #
 $CMP AZ2117
@@ -150,6 +164,11 @@ $CMP CL10B474KO8NNNC
 D CAP CER 0.47UF 16V X7R 0603
 K ceramic c capacitor 470nF 470 u47 u470 470n 470n0 mlcc cap
 F /home/dj/datasheets/CL10B474KO8NNNC.pdf
+$ENDCMP
+#
+$CMP CL21A106KOQNNNE
+D CAP CER 10UF 16V X5R 0805
+K ceramic c capacitor 10 MLCC
 $ENDCMP
 #
 $CMP CL21A226MOCLRNC
@@ -231,6 +250,12 @@ $CMP ERJ-3EKF1433V
 D RES SMD 143K OHM 1% 1/10W 0603
 K R res resistor 143k0
 F ~
+$ENDCMP
+#
+$CMP ERJ-3RQJR62V
+D RES 0.62 OHM 5% 1/10W 0603
+K resistor thick film tenth watt r r62 0r62
+F /home/dj/datasheets/AOA0000C313.pdf
 $ENDCMP
 #
 $CMP ESH336M035AC3AA
@@ -316,6 +341,17 @@ $CMP MAKK2016T3R3M
 D 3.3uH Shielded Wirewound Inductor 1.2A 255mOhm Max 0806
 K inductor choke coil reactor magnetic
 F ~
+$ENDCMP
+#
+$CMP MCP4822
+D 12 Bit Digital to Analog Converter 2 8-MSOP
+K DAC
+F /home/dj/datasheets/MCP4822.pdf
+$ENDCMP
+#
+$CMP MCP48FVB22
+D DAC
+F /home/dj/datasheets/MCP48FVB22.pdf
 $ENDCMP
 #
 $CMP MCP6002
@@ -462,6 +498,11 @@ $CMP PASSIVE_BUZZER
 D piezo buzzer
 K passive
 F ~
+$ENDCMP
+#
+$CMP PCM1754DBQR
+D DAC Audio 24 b 200k I²S 16-SSOP
+F /home/dj/datasheets/pcm1753.pdf
 $ENDCMP
 #
 $CMP PTH_0.5_mm
@@ -694,6 +735,12 @@ $CMP XT60_RA_MALE
 D XT60 Male RA
 K connector right angle through hole
 F /home/dj/datasheets/XT60PW.pdf
+$ENDCMP
+#
+$CMP dsPIC33CK32MP102-I_M6
+D IC MCU 16BIT 32KB FLASH 28UQFN
+K dsp dspic pic uc microcontroller
+F ~/dj/datasheets/dsPIC33CK.pdf
 $ENDCMP
 #
 $CMP ‎CC0603JRNPO9BN101‎

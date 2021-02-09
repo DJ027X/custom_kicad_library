@@ -16,6 +16,10 @@ D Power flag, -2.0V
 K power-flag
 $ENDCMP
 #
+$CMP 3V3
+D VDD_BAT power rail
+$ENDCMP
+#
 $CMP 3x32_1&3_loaded_2.5mm_0.1in_female_header
 K 32x3
 $ENDCMP
@@ -64,6 +68,11 @@ K R res resistor
 F ~
 $ENDCMP
 #
+$CMP AGND
+D Power symbol creates a global label with name "AGND"
+K power-flag analog ground
+$ENDCMP
+#
 $CMP AO3407A
 D P-Channel signal MOSFET
 K pmos pmosfet pfet p channel transistor
@@ -92,6 +101,11 @@ $CMP ATmega32U4RC-AU
 D 16MHz, 32kB Flash, 2.5kB SRAM, 1kB EEPROM, USB 2.0, RC Osc, TQFP-44
 K AVR 8bit Microcontroller MegaAVR USB
 F http://ww1.microchip.com/downloads/en/DeviceDoc/Atmel-7766-8-bit-AVR-ATmega16U4-32U4_Datasheet.pdf
+$ENDCMP
+#
+$CMP AVDD
+D AVDD power rail
+K analog
 $ENDCMP
 #
 $CMP AZ2117
@@ -329,6 +343,17 @@ K inductor choke coil reactor magnetic
 F ~
 $ENDCMP
 #
+$CMP MCP4822
+D 12 Bit Digital to Analog Converter 2 8-MSOP
+K DAC
+F /home/dj/datasheets/MCP4822.pdf
+$ENDCMP
+#
+$CMP MCP48FVB22
+D DAC
+F /home/dj/datasheets/MCP48FVB22.pdf
+$ENDCMP
+#
 $CMP MCP6002
 D Dual Operational Amplifier DIP
 K dual opamp operational amplifier amp comparator
@@ -473,6 +498,11 @@ $CMP PASSIVE_BUZZER
 D piezo buzzer
 K passive
 F ~
+$ENDCMP
+#
+$CMP PCM1754DBQR
+D DAC Audio 24 b 200k I²S 16-SSOP
+F /home/dj/datasheets/pcm1753.pdf
 $ENDCMP
 #
 $CMP PTH_0.5_mm
@@ -705,6 +735,12 @@ $CMP XT60_RA_MALE
 D XT60 Male RA
 K connector right angle through hole
 F /home/dj/datasheets/XT60PW.pdf
+$ENDCMP
+#
+$CMP dsPIC33CK32MP102-I_M6
+D IC MCU 16BIT 32KB FLASH 28UQFN
+K dsp dspic pic uc microcontroller
+F ~/dj/datasheets/dsPIC33CK.pdf
 $ENDCMP
 #
 $CMP ‎CC0603JRNPO9BN101‎
