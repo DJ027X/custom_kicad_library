@@ -16,12 +16,22 @@ D Power flag, -2.0V
 K power-flag
 $ENDCMP
 #
+$CMP 0468.500NRHF
+D 0.5A slow blow fuse 1206
+K f smd 500ma
+F /home/dj/datasheets/0468.500NRHF.pdf
+$ENDCMP
+#
 $CMP 3V3
-D VDD_BAT power rail
+D 3.3V power rail
 $ENDCMP
 #
 $CMP 3x32_1&3_loaded_2.5mm_0.1in_female_header
 K 32x3
+$ENDCMP
+#
+$CMP 5V0
+D 5V power rail
 $ENDCMP
 #
 $CMP 712RA
@@ -106,6 +116,12 @@ $ENDCMP
 $CMP AVDD
 D AVDD power rail
 K analog
+$ENDCMP
+#
+$CMP AZ1117CH2-3.3TRG1
+D IC REG LIN POS 3V3 800mA SOT223
+K linear voltage regulator ldo sot-223 3.3V
+F /home/dj/datasheets/AZ2117.pdf
 $ENDCMP
 #
 $CMP AZ2117
@@ -217,6 +233,11 @@ K resistor r 4k7
 F /home/dj/datasheets/Pyu-RC_Group_51_RoHS_L_9.pdf
 $ENDCMP
 #
+$CMP DGND
+D Power symbol creates a global label with name "GND" , ground
+K power-flag
+$ENDCMP
+#
 $CMP DMG6602
 D DUAL MOSFET N/P-CH 30V TSOT23-6
 K transistor cmos
@@ -294,6 +315,12 @@ $CMP IRF9540N
 D -23A Id, -100V Vds, HEXFET P-Channel MOSFET, TO-220
 K HEXFET P-Channel MOSFET transistor power switch fet p
 F /home/dj/datasheets/irf9540n.pdf
+$ENDCMP
+#
+$CMP IRLML2244
+D P-Channel signal MOSFET
+K pmos pmosfet pfet p channel transistor
+F /home/dj/datasheets/AO3407A.pdf
 $ENDCMP
 #
 $CMP LED_GENERIC_0805
@@ -678,6 +705,12 @@ K esd shock transient
 F /home/dj/datasheets/SMAJ_series.pdf
 $ENDCMP
 #
+$CMP SMAJ8.0CA-13-F
+D TVS DIODE BIDIRECTIONAL 8V
+K esd shock transient zener bidirectional
+F /home/dj/datasheets/SMAJ_series.pdf
+$ENDCMP
+#
 $CMP SMS12T1G
 D QUAD TVS DIODE 12V 23V SC74
 K transient esd
@@ -740,7 +773,7 @@ $ENDCMP
 $CMP dsPIC33CK32MP102-I_M6
 D IC MCU 16BIT 32KB FLASH 28UQFN
 K dsp dspic pic uc microcontroller
-F ~/dj/datasheets/dsPIC33CK.pdf
+F /home/dj/datasheets/dsPIC33CK.pdf
 $ENDCMP
 #
 $CMP ‎CC0603JRNPO9BN101‎
