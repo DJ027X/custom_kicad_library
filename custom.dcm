@@ -22,6 +22,10 @@ K f smd 500ma
 F /home/dj/datasheets/0468.500NRHF.pdf
 $ENDCMP
 #
+$CMP 1V8
+D 1.8V power rail
+$ENDCMP
+#
 $CMP 3V3
 D 3.3V power rail
 $ENDCMP
@@ -727,6 +731,12 @@ $CMP SolderJumper_2_Open
 D Solder Jumper, 2-pole, open
 K solder jumper SPST
 F ~
+$ENDCMP
+#
+$CMP TLV74318PDBVR
+D IC REG LINEAR 1.8V 300MA SOT-23-5
+K LDO Regulator Fixed Positive 1V8
+F home/dj/datasheets/tlv743p.pdf
 $ENDCMP
 #
 $CMP TPS61175

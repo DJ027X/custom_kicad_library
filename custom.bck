@@ -22,6 +22,10 @@ K f smd 500ma
 F /home/dj/datasheets/0468.500NRHF.pdf
 $ENDCMP
 #
+$CMP 1V8
+D 1.8V power rail
+$ENDCMP
+#
 $CMP 3V3
 D 3.3V power rail
 $ENDCMP
@@ -729,6 +733,12 @@ K solder jumper SPST
 F ~
 $ENDCMP
 #
+$CMP TLV74318PDBVR
+D IC REG LINEAR 1.8V 300MA SOT-23-5
+K LDO Regulator Fixed Positive 1V8
+F home/dj/datasheets/tlv743p.pdf
+$ENDCMP
+#
 $CMP TPS61175
 D IC REG MULT CONFIG ADJ 14HTSSOP
 K SMPS BOOST
@@ -773,7 +783,7 @@ $ENDCMP
 $CMP dsPIC33CK32MP102-I_M6
 D IC MCU 16BIT 32KB FLASH 28UQFN
 K dsp dspic pic uc microcontroller
-F ~/dj/datasheets/dsPIC33CK.pdf
+F /home/dj/datasheets/dsPIC33CK.pdf
 $ENDCMP
 #
 $CMP ‎CC0603JRNPO9BN101‎
