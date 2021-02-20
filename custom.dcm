@@ -715,6 +715,12 @@ K esd shock transient zener bidirectional
 F /home/dj/datasheets/SMAJ_series.pdf
 $ENDCMP
 #
+$CMP SMS05T1G
+D QUAD TVS DIODE 5V SC74
+K transient esd
+F /home/dj/datasheets/SMS05T1-D.PDF
+$ENDCMP
+#
 $CMP SMS12T1G
 D QUAD TVS DIODE 12V 23V SC74
 K transient esd
