@@ -283,6 +283,12 @@ K resistor thick film tenth watt r r62 0r62
 F /home/dj/datasheets/AOA0000C313.pdf
 $ENDCMP
 #
+$CMP ESD5Z2.5T5G
+D TVS DIODE 4V 10.9V SOD523
+K esd shock transient
+F /home/dj/datasheets/ESD5Z2.5T1-D.PDF
+$ENDCMP
+#
 $CMP ESH336M035AC3AA
 D 33uF Electrolytic Capacitor
 K cap capacitor c 3u3 3u3f
@@ -361,6 +367,12 @@ $CMP LMR23625CFDDAR
 D IC REG BUCK ADJ 2.5A SYNC 8SOPWR
 K voltage regulator smps switching switch mode power TI adjustable
 F /home/dj/datasheets/lmr23625.pdf
+$ENDCMP
+#
+$CMP LMV358AIDR
+D dual opamp RAIL-TO-RAIL
+K op-amp operational amplifier audio
+F /home/dj/datasheets/lmv358a.pdf
 $ENDCMP
 #
 $CMP M4_MOUNTING_HOLE
@@ -498,7 +510,7 @@ $ENDCMP
 $CMP OPA1652
 D dual opamp
 K op-amp operational amplifier audio
-F ~/datasheets/OPA165x.pdf
+F /home/dj/datasheets/OPA165x.pdf
 $ENDCMP
 #
 $CMP OPA1654A
@@ -731,6 +743,12 @@ $CMP SSM3K35AMFV
 D N-Channel signal MOSFET
 K nmos n channel transistor nchannel fet
 F /home/dj/datasheets/SSM3K35AMFV.pdf
+$ENDCMP
+#
+$CMP STS521033B950
+D TVS DIODE ESD SOD-523 3.3V 9.5PF
+K esd shock transient
+F /home/dj/datasheets/eaton-sts521xxxbxxx.pdf
 $ENDCMP
 #
 $CMP SolderJumper_2_Open
