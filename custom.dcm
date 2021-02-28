@@ -808,8 +808,20 @@ K connector right angle through hole
 F /home/dj/datasheets/XT60PW.pdf
 $ENDCMP
 #
+$CMP dsPIC33CK32MP102-I_2N
+D IC MCU 16BIT 32KB FLASH 28UQFN 6x6
+K dsp dspic pic uc microcontroller
+F /home/dj/datasheets/dsPIC33CK.pdf
+$ENDCMP
+#
 $CMP dsPIC33CK32MP102-I_M6
 D IC MCU 16BIT 32KB FLASH 28UQFN
+K dsp dspic pic uc microcontroller
+F /home/dj/datasheets/dsPIC33CK.pdf
+$ENDCMP
+#
+$CMP dsPIC33CK32MP202-I_SS
+D IC MCU 16BIT 32KB FLASH 28SSOP SSOP 28
 K dsp dspic pic uc microcontroller
 F /home/dj/datasheets/dsPIC33CK.pdf
 $ENDCMP
