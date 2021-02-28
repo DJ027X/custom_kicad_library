@@ -2466,7 +2466,7 @@ ENDDEF
 DEF PTH_1_mm TP 0 40 N N 1 F N
 F0 "TP" -50 100 50 H V L BNN
 F1 "PTH_1_mm" -200 -150 50 H V L BNN
-F2 "TestPoint:TestPoint_THTPad_D2.0mm_Drill1.0mm" -200 -250 50 H I L BNN
+F2 "custom:TestPoint_THTPad_D2.0mm_Drill1.0mm" -200 -250 50 H I L BNN
 F3 "" 0 100 50 H I L BNN
 DRAW
 C -25 0 25 0 1 0 N
