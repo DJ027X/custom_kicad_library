@@ -248,6 +248,10 @@ K transistor cmos
 F /home/dj/datasheets/DMG6602SVT.pdf
 $ENDCMP
 #
+$CMP DSC1001DI1-012.0000
+F /home/dj/datasheets/20005529B.pdf
+$ENDCMP
+#
 $CMP DSS15UTR
 D SCHOTTKY 50V SOD-123FL
 K d diode
