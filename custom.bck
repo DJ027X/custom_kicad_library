@@ -702,6 +702,12 @@ K audio jack receptacle stereo headphones phones TRS connector 3.5 mm 3.5mm
 F ~/datasheets/sj-356xn.pdf
 $ENDCMP
 #
+$CMP SJ1-3515
+D Audio Jack, TRS dual switch
+K audio jack receptacle connector 3.5mm 3.5
+F ~
+$ENDCMP
+#
 $CMP SJ1-3535NS
 D Audio Jack, 2 Poles, SHIELDED
 K audio jack receptacle connector 3.5mm 3.5
