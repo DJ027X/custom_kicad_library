@@ -122,6 +122,12 @@ D AVDD power rail
 K analog
 $ENDCMP
 #
+$CMP AZ1117CH-3.3TRG1
+D IC REG LIN POS 3V3 800mA SOT223
+K linear voltage regulator ldo sot-223 3.3V
+F /home/dj/datasheets/AZ2117.pdf
+$ENDCMP
+#
 $CMP AZ1117CH2-3.3TRG1
 D IC REG LIN POS 3V3 800mA SOT223
 K linear voltage regulator ldo sot-223 3.3V
