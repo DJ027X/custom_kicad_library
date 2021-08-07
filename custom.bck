@@ -134,6 +134,12 @@ K linear voltage regulator ldo
 F /home/dj/datasheets/AZ2117.pdf
 $ENDCMP
 #
+$CMP BD63510AEFV
+D Stepper motor driver
+K h-bridge
+F ~/datasheets/BD63510AEFV.pdf
+$ENDCMP
+#
 $CMP BLM31SN500SZ1L
 D FERRITE BEAD 50 OHM 1206 1LN
 K FB L
@@ -437,6 +443,11 @@ $ENDCMP
 #
 $CMP NPTH_2mm
 D 2mm non-plated through hole
+K mounting hole pad metric pth
+$ENDCMP
+#
+$CMP NPTH_3.5mm
+D 3.5mm non plated through hole
 K mounting hole pad metric pth
 $ENDCMP
 #

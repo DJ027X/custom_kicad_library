@@ -16,14 +16,42 @@ D Power flag, -2.0V
 K power-flag
 $ENDCMP
 #
+$CMP 0026604030
+D CONN HEADER VERT 3POS 3.96MM
+K molex male
+F ${SPOOKY_LIB}/datasheets/026604030_sd.pdf
+$ENDCMP
+#
+$CMP 0026604043
+D CONN HEADER VERT 4POS 3.96MM
+K molex male
+F ${SPOOKY_LIB}/datasheets/026604043_sd.pdf
+$ENDCMP
+#
+$CMP 0026604050
+D Molex 5 position friction lock 3.96mm pitch
+K connector
+F ${SPOOKY}/circuits/spooky_kicad/library/026604050_sd.pdf
+$ENDCMP
+#
 $CMP 0468.500NRHF
 D 0.5A slow blow fuse 1206
 K f smd 500ma
 F /home/dj/datasheets/0468.500NRHF.pdf
 $ENDCMP
 #
+$CMP 12V0
+D 12V power rail
+$ENDCMP
+#
 $CMP 1V8
 D 1.8V power rail
+$ENDCMP
+#
+$CMP 338CKE025M
+D CAP ALUM 3300UF 20% 25V RADIAL
+K electrolytic polarized
+F ${SPOOKY}/circuits/spooky_kicad_library/datasheets/CKH_CKE series.pdf
 $ENDCMP
 #
 $CMP 3V3
@@ -36,6 +64,12 @@ $ENDCMP
 #
 $CMP 5V0
 D 5V power rail
+$ENDCMP
+#
+$CMP 6A10-G
+D diode 1kv 6A axial
+K silicon
+F ${SPOOKY}/circuits/spooky_kicad_library/datasheets/6A005-G.pdf
 $ENDCMP
 #
 $CMP 712RA
@@ -70,6 +104,12 @@ D CAP CER 4700pF 4.7nF 50V X7R 0603
 K ceramic c capacitor 4.7 MLCC
 $ENDCMP
 #
+$CMP 9033
+D BRD SPT SNAP LOCK SCREW MNT 1/4"
+K standoff
+F ${SPOOKY_LIB}/datasheets/M65p81.pdf
+$ENDCMP
+#
 $CMP ABM8G-12.000MHZ-B4Y-T
 D CRYSTAL 12.0000 MHz 10 pF SMD
 K clock osc oscilator oscillator 12
@@ -91,6 +131,12 @@ $CMP AO3407A
 D P-Channel signal MOSFET
 K pmos pmosfet pfet p channel transistor
 F /home/dj/datasheets/AO3407A.pdf
+$ENDCMP
+#
+$CMP APA-102C-NEW
+D RGB LED with integrated controller
+K RGB LED addressable 8bit pwm 5bit greyscale
+F http://www.led-color.com/upload/201506/APA102%20LED.pdf
 $ENDCMP
 #
 $CMP ATmega16U4-AU
@@ -149,6 +195,12 @@ $CMP C0603C180K5RACAUTO
 D CAP CER SMD 0603 18PF 10% X7R 50V
 K ceramic c capacitor 18
 F ~/datasheets/KEM_C1023_X7R_AUTO_SMD.pdf
+$ENDCMP
+#
+$CMP CF14JT1K50
+D RES 1.5K OHM 1/4W 5% AXIAL
+K resistor 1k5
+F ${SPOOKY_LIB}/datasheets/sei-cf_cfm.pdf
 $ENDCMP
 #
 $CMP CFSH05-20L
@@ -254,6 +306,12 @@ K transistor cmos
 F /home/dj/datasheets/DMG6602SVT.pdf
 $ENDCMP
 #
+$CMP DMP6180SK3-13
+D P-Channel 60V 14A Surface Mount TO-252
+K fet transistor pmos mos
+F ${SPOOKY_LIB}/datasheets/DMP6180SK3-13_Diodes_Inc.pdf
+$ENDCMP
+#
 $CMP DSC1001DI1-012.0000
 F /home/dj/datasheets/20005529B.pdf
 $ENDCMP
@@ -310,6 +368,12 @@ D RISC-V Based Microcontroller
 K sifive
 $ENDCMP
 #
+$CMP FMP200JR-52-4K7
+D RES 4.7K OHM 2W 5% AXIAL
+K resistor 4k7
+F ${SPOOKY_LIB}/datasheets/Yageo_LR_FMP_1.pdf
+$ENDCMP
+#
 $CMP FT2232D
 F /home/dj/datasheets/FT2232D.pdf
 $ENDCMP
@@ -349,6 +413,12 @@ K LED diode
 F ~
 $ENDCMP
 #
+$CMP LGU1J682MELC
+D Electrolytic capacitor 6800uF
+K cap polarized
+F ${SPOOKY}/circuits/spooky_kicad_library/datasheets/e-lgu.pdf
+$ENDCMP
+#
 $CMP LM2594-DADJ
 D 3.3V, 0.5A SIMPLE SWITCHER® Step-Down Voltage Regulator, Maximum VIN 45V, SOIC-8
 K buck converter regulator step-down voltage simple switcher fixed
@@ -383,6 +453,12 @@ $CMP LMV358AIDR
 D dual opamp RAIL-TO-RAIL
 K op-amp operational amplifier audio
 F /home/dj/datasheets/lmv358a.pdf
+$ENDCMP
+#
+$CMP LTL-4223
+D LED RED DIFFUSED T-1 3/4 T/H
+K 5mm light
+F ${SPOOKY_LIB}/datasheets/lite-on_lite-s-a0003819728-1-1737555.pdf
 $ENDCMP
 #
 $CMP M4_MOUNTING_HOLE
@@ -601,6 +677,12 @@ K resistor r 1k0
 F ~/datasheets/PYu-RC_Group_51_RoHS_L_10.pdf
 $ENDCMP
 #
+$CMP RC0805FR-074K7L
+D RES 4.7kΩ 1% 0.125W 0805
+K resistor 4k7 1/8
+F ${SPOOKY_LIB}/datasheets/YAGEO-RC0805FR-074K7L_C60816.pdf
+$ENDCMP
+#
 $CMP RMCF0603FG100K
 D RES 100K OHM 1% 1/10W 0603
 K R res resistor 100k0
@@ -730,6 +812,18 @@ D DIODE SCHOTTKY 100V 5A DO214AB
 F /home/dj/datasheets/SKL510.PDF
 $ENDCMP
 #
+$CMP SLPX103M063H7P3
+D CAP ALUM 10000UF 20% 63V SNAP
+K cap polarized
+F ${SPOOKY_LIB}/datasheets/SLPX.pdf
+$ENDCMP
+#
+$CMP SLPX822M063H5P3
+D CAP ALUM 8200UF 20% 63V SNAP
+K cap polarized
+F ${SPOOKY_LIB}/datasheets/SLPX.pdf
+$ENDCMP
+#
 $CMP SMAJ12A
 D TVS DIODE 12V 19.9V DO214AC
 K esd shock transient
@@ -823,6 +917,12 @@ $CMP XT60_RA_MALE
 D XT60 Male RA
 K connector right angle through hole
 F /home/dj/datasheets/XT60PW.pdf
+$ENDCMP
+#
+$CMP XZMDK45WT-9
+D LED Red Reverse mount
+K diode bottom view
+F ${SPOOKY_LIB}/datasheets/XZMDK45WT-9.pdf
 $ENDCMP
 #
 $CMP dsPIC33CK32MP102-I_2N
