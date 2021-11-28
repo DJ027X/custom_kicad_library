@@ -50,6 +50,11 @@ $CMP 12V0
 D 12V power rail
 $ENDCMP
 #
+$CMP 12V0_RTN
+D Power symbol creates a global label with name "12V0_RTN" , ground
+K power-flag
+$ENDCMP
+#
 $CMP 1V8
 D 1.8V power rail
 $ENDCMP
@@ -64,12 +69,29 @@ $CMP 3V3
 D 3.3V power rail
 $ENDCMP
 #
+$CMP 3V3_RTN
+K power-flag
+$ENDCMP
+#
 $CMP 3x32_1&3_loaded_2.5mm_0.1in_female_header
 K 32x3
 $ENDCMP
 #
+$CMP 48V0
+D 48V power rail
+$ENDCMP
+#
+$CMP 48V0_RTN
+K power-flag
+$ENDCMP
+#
 $CMP 5V0
 D 5V power rail
+$ENDCMP
+#
+$CMP 5V0_RTN
+D Power symbol creates a global label with name "5V0_RTN" , ground
+K power-flag
 $ENDCMP
 #
 $CMP 6A10-G
@@ -209,6 +231,12 @@ D FERRITE BEAD 50 OHM 1206 1LN
 K FB L
 $ENDCMP
 #
+$CMP BM04B-PASS-1
+D right angle 4 pin male header with locking ramp
+K positive latch connector surface mount sm ra
+F /home/dj/datasheets/SM04B-PASS.pdf
+$ENDCMP
+#
 $CMP BPR-105F
 D Subminiature Reflective Optical Sensor, DIP-like THT-package
 K Reflective Optical Sensor Opto
@@ -225,6 +253,12 @@ $CMP C0603C180K5RACAUTO
 D CAP CER SMD 0603 18PF 10% X7R 50V
 K ceramic c capacitor 18
 F ~/datasheets/KEM_C1023_X7R_AUTO_SMD.pdf
+$ENDCMP
+#
+$CMP CC0603JRNPO9BN101
+D CAP CER 100PF 50V C0G/NPO 0603
+K ceramic c capacitor 100p .1n 0.1n 0.1
+F /home/dj/datasheets/‎CC0603JRNPO9BN101‎.pdf
 $ENDCMP
 #
 $CMP CF14JT1K50
@@ -274,6 +308,11 @@ K ceramic c capacitor 470nF 470 u47 u470 470n 470n0 mlcc cap
 F /home/dj/datasheets/CL10B474KO8NNNC.pdf
 $ENDCMP
 #
+$CMP CL21A106KOFNNNE
+D CAP CER 10UF 16V X5R 0805
+K ceramic c capacitor 10 MLCC
+$ENDCMP
+#
 $CMP CL21A106KOQNNNE
 D CAP CER 10UF 16V X5R 0805
 K ceramic c capacitor 10 MLCC
@@ -282,6 +321,12 @@ $ENDCMP
 $CMP CL21A226MOCLRNC
 D CAP CER 22uF 16V X5R 0805
 K ceramic c capacitor 22 MLCC
+$ENDCMP
+#
+$CMP CL21A475KLCLQNC
+D CAP CER 4.7uF 35V X5R 0805
+K ceramic capacitor c
+F ~/datasheets/CL21A475KLCLQNC.pdf
 $ENDCMP
 #
 $CMP CL21B104MACNNNC
@@ -351,6 +396,12 @@ $CMP DMG6602
 D DUAL MOSFET N/P-CH 30V TSOT23-6
 K transistor cmos
 F /home/dj/datasheets/DMG6602SVT.pdf
+$ENDCMP
+#
+$CMP DMN10H099SK3-13
+D MOSFET N-CH 100V 17A TO252
+K transistor NMOS N-MOS N-MOSFET
+F /home/dj/datasheets/DMN10H099SK3.pdf
 $ENDCMP
 #
 $CMP DMP6180SK3-13
@@ -538,6 +589,12 @@ K 5mm light
 F ${SPOOKY_LIB}/datasheets/lite-on_lite-s-a0003819728-1-1737555.pdf
 $ENDCMP
 #
+$CMP LTV-356T
+D DC Optocoupler, Vce 80V, CTR 50%, SO-4
+K NPN DC Optocoupler
+F /home/dj/datasheets/LTV-356T.pdf
+$ENDCMP
+#
 $CMP M4_MOUNTING_HOLE
 D M4 4.3mm Mounting Hole with connection
 K mounting hole pad metric pth
@@ -559,6 +616,12 @@ $CMP MAKK2016T3R3M
 D 3.3uH Shielded Wirewound Inductor 1.2A 255mOhm Max 0806
 K inductor choke coil reactor magnetic
 F ~
+$ENDCMP
+#
+$CMP MC14043BDG
+D IC LATCH R-S QUAD NOR 16SOIC
+K sr
+F /home/dj/datasheets/MC14043B-D.PDF
 $ENDCMP
 #
 $CMP MCP4822
@@ -622,6 +685,11 @@ D 3.5mm non plated through hole
 K mounting hole pad metric pth
 $ENDCMP
 #
+$CMP NPTH_4mm
+D 3.5mm non plated through hole
+K mounting hole pad metric pth
+$ENDCMP
+#
 $CMP NP_470uF
 D Polarized capacitor, US symbol
 K cap capacitor
@@ -649,6 +717,11 @@ K f smd no pop nopop non not populated
 $ENDCMP
 #
 $CMP NP_R_0603
+D NOPOP RESISTOR
+K resistor no pop nopop np not populated non
+$ENDCMP
+#
+$CMP NP_R_0805
 D NOPOP RESISTOR
 K resistor no pop nopop np not populated non
 $ENDCMP
@@ -727,6 +800,12 @@ $CMP PASSIVE_BUZZER
 D piezo buzzer
 K passive
 F ~
+$ENDCMP
+#
+$CMP PCA9685PW
+D 16-channel 12-bit PWM Fm+ I2C-bus LED controller RGBA TSSOP
+K PWM LED driver I2C TSSOP
+F /home/dj/datasheets/PCA9685.pdf
 $ENDCMP
 #
 $CMP PCM1754DBQR
@@ -830,6 +909,12 @@ D RES 1.5K OHM 1% 1/10W 0603
 K resistor r 1k5
 $ENDCMP
 #
+$CMP RMCF0603FT1M00
+D RES 1M OHM 1% 1/10W 0603
+K resistor r 1M0
+F /home/dj/datasheets/SEI-RMCF_RMCP.pdf
+$ENDCMP
+#
 $CMP RMCF0603FT22R0
 D RES 22 OHM 1% 1/10W 0603
 K resistor thick film impedance termination r 22r 22r0
@@ -846,6 +931,11 @@ $CMP RMCF0603FT40K2
 D RES 40.2K OHM 1% 1/10W 0603
 K resistor thick film impedance termination r 40k2
 F /home/dj/datasheets/SEI-RMCF_RMCP.pdf
+$ENDCMP
+#
+$CMP RMCF0603FT470R
+D RES 470 OHM 1% 1/10W 0603
+K resistor r 470
 $ENDCMP
 #
 $CMP RMCF0603FT4K70
@@ -1120,29 +1210,6 @@ $CMP dsPIC33CK32MP202-I_SS
 D IC MCU 16BIT 32KB FLASH 28SSOP SSOP 28
 K dsp dspic pic uc microcontroller
 F /home/dj/datasheets/dsPIC33CK.pdf
-$ENDCMP
-#
-$CMP ‎CC0603JRNPO9BN101‎
-D CAP CER 100PF 50V C0G/NPO 0603
-K ceramic c capacitor 100p .1n 0.1n 0.1
-F /home/dj/datasheets/‎CC0603JRNPO9BN101‎.pdf
-$ENDCMP
-#
-$CMP ‎CL21A475KLCLQNC‎
-D CAP CER 4.7uF 35V X5R 0805
-K ceramic capacitor c
-F ~/datasheets/CL21A475KLCLQNC.pdf
-$ENDCMP
-#
-$CMP ‎RMCF0603FT1M00‎
-D RES 1M OHM 1% 1/10W 0603
-K resistor r 1M0
-F /home/dj/datasheets/SEI-RMCF_RMCP.pdf
-$ENDCMP
-#
-$CMP ‎RMCF0603FT470R‎
-D RES 470 OHM 1% 1/10W 0603
-K resistor r 470
 $ENDCMP
 #
 #End Doc Library
