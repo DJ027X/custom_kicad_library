@@ -15277,7 +15277,7 @@
     )
   )
   (symbol "PTH_1.5_mm" (pin_numbers hide) (pin_names (offset 1.016) hide) (in_bom yes) (on_board yes)
-    (property "Reference" "J" (id 0) (at -1.27 2.54 0)
+    (property "Reference" "TP" (id 0) (at -1.27 1.27 0)
       (effects (font (size 1.27 1.27)) (justify left bottom))
     )
     (property "Value" "PTH_1.5_mm" (id 1) (at -5.08 -3.81 0)
